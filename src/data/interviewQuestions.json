@@ -1,0 +1,271 @@
+
+{
+  "companies": [
+    {
+      "name": "Google",
+      "questions": [
+        {
+          "id": "G001",
+          "type": "behavioral",
+          "text": "Tell me about a time you faced a challenging technical problem and how you solved it."
+        },
+        {
+          "id": "G002",
+          "type": "technical",
+          "text": "How would you design a system like Google Docs? Focus on the data structures and algorithms for real-time collaborative editing."
+        },
+        {
+          "id": "G003",
+          "type": "technical",
+          "text": "You are given a dictionary of words. Write a function to find the longest word in the dictionary that can be formed by deleting characters of a given string."
+        },
+        {
+          "id": "G004",
+          "type": "behavioral",
+          "text": "Describe a situation where you had to work with a difficult team member. How did you handle the conflict and what was the outcome?"
+        },
+        {
+          "id": "G005",
+          "type": "technical",
+          "text": "Explain the difference between SQL and NoSQL databases. When would you choose one over the other for a large-scale application?"
+        },
+        {
+          "id": "G006",
+          "type": "technical",
+          "text": "Implement a data structure that supports add, remove, and getRandom in O(1) time."
+        },
+        {
+          "id": "G007",
+          "type": "behavioral",
+          "text": "Tell me about a time you had to learn a new technology quickly for a project."
+        },
+        {
+          "id": "G008",
+          "type": "technical",
+          "text": "What is the difference between TCP and UDP? Explain a scenario where you would prefer one over the other."
+        },
+        {
+          "id": "G009",
+          "type": "behavioral",
+          "text": "Describe a time you disagreed with a manager's decision. What did you do?"
+        },
+        {
+          "id": "G010",
+          "type": "technical",
+          "text": "How would you design a system to handle billions of URL clicks per day?"
+        }
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "questions": [
+        {
+          "id": "M001",
+          "type": "behavioral",
+          "text": "Describe a project where you had to make a difficult technical decision with limited information. What was your process?"
+        },
+        {
+          "id": "M002",
+          "type": "technical",
+          "text": "Explain the difference between a process and a thread in an operating system. What are the benefits of multithreading?"
+        },
+        {
+          "id": "M003",
+          "type": "technical",
+          "text": "Write a function to reverse a singly linked list in-place."
+        },
+        {
+          "id": "M004",
+          "type": "behavioral",
+          "text": "Tell me about a time you received critical feedback on your work. How did you respond and what did you learn from it?"
+        },
+        {
+            "id": "M005",
+            "type": "technical",
+            "text": "Design an API for a URL shortening service like bit.ly. What are the key components and potential scalability issues?"
+        },
+        {
+          "id": "M006",
+          "type": "technical",
+          "text": "Given two sorted arrays, find the k-th smallest element in their merged sorted array."
+        },
+        {
+          "id": "M007",
+          "type": "behavioral",
+          "text": "How do you stay up-to-date with the latest technologies and trends in software development?"
+        },
+        {
+          "id": "M008",
+          "type": "technical",
+          "text": "Explain what a deadlock is and how you would prevent it."
+        },
+        {
+          "id": "M009",
+          "type": "behavioral",
+          "text": "Tell me about a time you had to deliver a project under a tight deadline."
+        },
+        {
+          "id": "M010",
+          "type": "technical",
+          "text": "Design a class to represent a deck of cards. Implement a shuffle function."
+        }
+      ]
+    },
+    {
+      "name": "Amazon",
+      "questions": [
+        {
+          "id": "A001",
+          "type": "behavioral",
+          "text": "Tell me about a time you had to take ownership of a project that was failing. What did you do to turn it around? (Ownership)"
+        },
+        {
+          "id": "A002",
+          "type": "technical",
+          "text": "Given a list of movie durations and a flight duration, find a pair of movies whose total duration is exactly 30 minutes less than the flight duration."
+        },
+        {
+          "id": "A003",
+          "type": "behavioral",
+          "text": "Describe a time when you had to dive deep into a problem to find the root cause. How did you go about it? (Dive Deep)"
+        },
+        {
+            "id": "A004",
+            "type": "technical",
+            "text": "Design the data structures for a product recommendation system on an e-commerce website."
+        },
+        {
+            "id": "A005",
+            "type": "behavioral",
+            "text": "Give an example of a time you had to make a decision based on data. How did you collect and use the data? (Are Right, A Lot)"
+        },
+        {
+          "id": "A006",
+          "type": "behavioral",
+          "text": "Describe a time when you simplified a complex process or system. What was the outcome? (Invent and Simplify)"
+        },
+        {
+          "id": "A007",
+          "type": "technical",
+          "text": "Implement a Least Recently Used (LRU) cache."
+        },
+        {
+          "id": "A008",
+          "type": "behavioral",
+          "text": "Tell me about a time you took a calculated risk. What was the situation and what was the result? (Bias for Action)"
+        },
+        {
+          "id": "A009",
+          "type": "technical",
+          "text": "You are given a stream of integers. How would you find the median at any point in time?"
+        },
+        {
+          "id": "A010",
+          "type": "behavioral",
+          "text": "Describe a situation where you had to insist on high standards when others were satisfied with 'good enough'. (Insist on the Highest Standards)"
+        }
+      ]
+    },
+    {
+      "name": "Meta",
+      "questions": [
+        {
+          "id": "F001",
+          "type": "behavioral",
+          "text": "Tell me about a time you had to move fast on a project. How did you balance speed with quality?"
+        },
+        {
+          "id": "F002",
+          "type": "technical",
+          "text": "Given a binary tree, serialize it to a string and deserialize the string back to the original tree."
+        },
+        {
+          "id": "F003",
+          "type": "technical",
+          "text": "How would you design the News Feed for a social media platform? Discuss the ranking algorithm and system architecture."
+        },
+        {
+          "id": "F004",
+          "type": "behavioral",
+          "text": "Describe a time you built something from scratch. What was it and what was the impact?"
+        },
+        {
+          "id": "F005",
+          "type": "technical",
+          "text": "You are given an array of non-negative integers. You are initially positioned at the first index. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index."
+        },
+        {
+          "id": "F006",
+          "type": "technical",
+          "text": "Given an array of strings, group anagrams together."
+        },
+        {
+          "id": "F007",
+          "type": "behavioral",
+          "text": "Tell me about a project you are particularly proud of and why."
+        },
+        {
+          "id": "F008",
+          "type": "technical",
+          "text": "How would you detect a cycle in a linked list?"
+        },
+        {
+          "id": "F009",
+          "type": "behavioral",
+          "text": "Describe a situation where you had to be bold and take initiative."
+        },
+        {
+          "id": "F010",
+          "type": "technical",
+          "text": "Design a system that suggests friends for users on a social network."
+        }
+      ]
+    },
+    { "name": "Apple" },
+    { "name": "Netflix" },
+    { "name": "Adobe" },
+    { "name": "Salesforce" },
+    { "name": "Oracle" },
+    { "name": "SAP" },
+    { "name": "IBM" },
+    { "name": "Intel" },
+    { "name": "Nvidia" },
+    { "name": "AMD" },
+    { "name": "Qualcomm" },
+    { "name": "Broadcom" },
+    { "name": "Cisco" },
+    { "name": "Dell" },
+    { "name": "HP" },
+    { "name": "VMware" },
+    { "name": "Uber" },
+    { "name": "Lyft" },
+    { "name": "Airbnb" },
+    { "name": "Spotify" },
+    { "name": "Twitter (X)" },
+    { "name": "Snap" },
+    { "name": "Pinterest" },
+    { "name": "Atlassian" },
+    { "name": "Shopify" },
+    { "name": "Square (Block)" },
+    { "name": "Stripe" },
+    { "name": "Palantir" },
+    { "name": "Goldman Sachs" },
+    { "name": "J.P. Morgan" },
+    { "name": "Morgan Stanley" },
+    { "name": "Bloomberg" },
+    { "name": "Two Sigma" },
+    { "name": "Jane Street" },
+    { "name": "Citadel" },
+    { "name": "ByteDance (TikTok)" },
+    { "name": "Tesla" },
+    { "name": "Dropbox" },
+    { "name": "Box" },
+    { "name": "Okta" },
+    { "name": "Twilio" },
+    { "name": "DocuSign" },
+    { "name": "Zoom" },
+    { "name": "Slack" },
+    { "name": "Robinhood" },
+    { "name": "Coinbase" }
+  ]
+}
